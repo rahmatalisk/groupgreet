@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+/*-------- common style------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-right: 35px;
+    font-weight: 300;
+    font-size: 18px;
+}
+p{
+    font-weight: 300;
+}
+h1,h2{
+    font-weight: 400;
+}
+.btn{
+    background-color: #F4B730;
+    color: white;
+    padding: 7px 13px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-radius: 3px;
+    border:1px solid #F4B730;
+}
+.btn:hover{
+    background-color: white;
+    color: #5BC6D8;
+    border:1px solid #5BC6D8;
+}
+.container{
+    padding: 0 100px;
+}
+h3{
+    font-weight: 300;
+}
+
+
+/* --------header style ------------*/
+nav{
+    justify-content: space-between;
+}
+.logo{
+    font-size: 32px;
+    color: #5BC6D8;
+    font-weight: 600;
+}
+.logo-g{
+    background-color: #F5BB35;
+    color: aliceblue;
+}
+.free-btn{
+    background-color: #F4B730;
+    color: #1F2867;
+    padding: 0 5px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search img{
+    margin-left: 14px;
+}
+.login{
+    border-left: 2px solid black;
+    margin-right: 0;
+    padding-left: 35px;
+}
+
+.navbar{
+    margin-top: 54px;
+    padding-bottom: 26px;
+    /* box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.07); */
+    box-shadow: 0 4px 13px -2px rgba(0, 0, 0, 0.07);
+}
+.navbar li img{
+    margin-right: 20px;
+}
+.moments{
+    margin: 90px 0;
+}
+.moments div{
+    width: 50%;
+}
+.moments div img{
+    width: 100%;
+}
+
+/* --------------partner style ------------*/
+.partner-container{
+    background-color: #F5FCFE;
+    padding-top: 33px;
+}
+.partner{
+    justify-content: space-between;
+}
+.partner img{
+    height: 58px;
+    padding: 47px 0 57px;
+}
+
+/* card style */
+.card-container{
+    margin: 150px 0;
+}
+.card-img{
+    justify-content: space-between;
+}
+.card-img div img{
+    height: 250px;
+    margin-top: 51px;
+}
+
+/* feature style */
+.feature-container{
+    background-color: #F5FCFE;
+    padding: 85px 100px;
+}
+.feature{
+    padding-top: 100px;
+}
+.feature img{
+    width: 100%;
+    margin-right: 66px;
+}
+
+/* selection style */
+.selection-container{
+    margin: 90px;
+}
+.selection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap:76px ;
+    padding: 91px 0;
+}
+.selection span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
